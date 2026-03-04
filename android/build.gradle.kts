@@ -1,9 +1,34 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Use parentheses and double quotes for .kts files
+        classpath("com.android.tools.build:gradle:8.1.0")
+        classpath("com.google.gms:google-services:4.4.1")
+    }
+}
+
 allprojects {
     repositories {
         google()
         mavenCentral()
     }
 }
+
+/*buildscript {
+dependencies {
+classpath("com.google.gms:google-services:4.4.1")
+}
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}*/
 
 val newBuildDir: Directory =
     rootProject.layout.buildDirectory

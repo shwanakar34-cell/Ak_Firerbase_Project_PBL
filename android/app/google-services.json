@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "179976304799",
+    "project_id": "poll-voting-app-1221",
+    "storage_bucket": "poll-voting-app-1221.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179976304799:android:c114f44c2bfa6ad2e7caaa",
+        "android_client_info": {
+          "package_name": "com.Akar_company.poll_Voting_App"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo6Ndg6ZSx0mafyXALQtnCUQiwEkT0VF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
